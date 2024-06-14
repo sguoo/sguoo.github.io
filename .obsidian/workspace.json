@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1b4056bf217c6a48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "foundation/frontend/HTML.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "foundation/frontend/HTML.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "foundation/frontend/HTML.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "foundation/frontend/HTML.md"
+                "file": "README.md"
               }
             }
           }
@@ -162,10 +149,14 @@
       "media-extended:Open media": false
     }
   },
-  "active": "1b4056bf217c6a48",
+  "active": "7dcd9e9d6e2d7b46",
   "lastOpenFiles": [
-    "마크업 언어.md",
     "foundation/frontend/HTML.md",
+    "foundation/frontend/data.md",
+    "foundation/algorithm/data.md",
+    "foundation/algorithm",
+    "foundation/README.md",
+    "마크업 언어.md",
     "README.md",
     "foundation/frontend/frontend.md",
     "Excalidraw/Drawing 2024-06-14 18.21.55.excalidraw.md",
@@ -180,7 +171,6 @@
     "sguoo.github.io/foudnation/data.json",
     "sguoo.github.io/foudnation",
     "foundation",
-    "sguoo.github.io/data.json",
-    "sguoo.github.io"
+    "sguoo.github.io/data.json"
   ]
 }
