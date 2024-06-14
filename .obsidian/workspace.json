@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "foundation/frontend/HTML.md",
+                "file": "foundation/frontend/frontend.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "foundation/frontend/HTML.md",
+                "file": "foundation/frontend/frontend.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "foundation/frontend/HTML.md",
+                "file": "foundation/frontend/frontend.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "foundation/frontend/HTML.md"
+                "file": "foundation/frontend/frontend.md"
               }
             }
           }
@@ -176,8 +176,8 @@
   },
   "active": "808d9a4a766ab363",
   "lastOpenFiles": [
-    "foundation/frontend/frontend.md",
     "foundation/frontend/HTML.md",
+    "foundation/frontend/frontend.md",
     "Excalidraw/Drawing 2024-06-14 18.21.55.excalidraw.md",
     "Excalidraw",
     "README.md",
