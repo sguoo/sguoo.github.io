@@ -3,4 +3,4 @@
 자고로 알고리즘이란...
 ## 문제해결능력
 알고리즘 풀이를 통하여..
-${\textf{\color{green}Green}}$
+${\textsf{\color{green}Green}}$
