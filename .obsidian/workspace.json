@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "foudnation/frontend/HTML.md",
+                "file": "foundation/frontend/HTML.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "foudnation/frontend/HTML.md",
+                "file": "foundation/frontend/HTML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "foudnation/frontend/HTML.md",
+                "file": "foundation/frontend/HTML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "foudnation/frontend/HTML.md"
+                "file": "foundation/frontend/HTML.md"
               }
             }
           }
@@ -152,6 +152,8 @@
   },
   "active": "7dcd9e9d6e2d7b46",
   "lastOpenFiles": [
+    "README.md",
+    "foundation/frontend/HTML.md",
     "sguoo.github.io/README.md",
     "sguoo.github.io/foudnation/frontend/HTML.md",
     "sguoo.github.io/foudnation/frontend",
@@ -161,7 +163,7 @@
     "sguoo.github.io/foudnation/전공",
     "sguoo.github.io/foudnation/data.json",
     "sguoo.github.io/foudnation",
-    "foudnation",
+    "foundation",
     "sguoo.github.io/data.json",
     "sguoo.github.io"
   ]
