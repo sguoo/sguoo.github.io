@@ -20,31 +20,19 @@
             }
           },
           {
-            "id": "2e288cf1b0d85de6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "foundation/frontend/frontend.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "808d9a4a766ab363",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "foundation/frontend/frontend.md",
-                "mode": "source",
+                "file": "foundation/frontend/HTML.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "foundation/frontend/frontend.md",
+                "file": "foundation/frontend/HTML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "foundation/frontend/frontend.md",
+                "file": "foundation/frontend/HTML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "foundation/frontend/frontend.md"
+                "file": "foundation/frontend/HTML.md"
               }
             }
           }
@@ -176,8 +164,8 @@
   },
   "active": "808d9a4a766ab363",
   "lastOpenFiles": [
-    "foundation/frontend/HTML.md",
     "foundation/frontend/frontend.md",
+    "foundation/frontend/HTML.md",
     "Excalidraw/Drawing 2024-06-14 18.21.55.excalidraw.md",
     "Excalidraw",
     "README.md",

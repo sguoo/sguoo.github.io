@@ -1,3 +1,3 @@
 # HTML 이란?
 
-HTML은 
+https://namu.wiki/w/HTML
