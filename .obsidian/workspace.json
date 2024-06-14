@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "6e34035325826e7e",
+    "type": "split",
+    "children": [
+      {
+        "id": "793d837dfb17b687",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7dcd9e9d6e2d7b46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "foudnation/frontend/HTML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "333f28fa4bd0b035",
+    "type": "split",
+    "children": [
+      {
+        "id": "05f56e0e4a263f1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d984afe2a7660d92",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b22ad7bb5a7f6464",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5a08822668dc4f92",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f2a8352b2d602961",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e68cb43e0d9c3b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffb03db15722aee4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "foudnation/frontend/HTML.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "90ca585ee480c05d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "foudnation/frontend/HTML.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "194c9031300d6b1b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "83f0c3a56679c7f0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "foudnation/frontend/HTML.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "media-extended:Open media": false
+    }
+  },
+  "active": "7dcd9e9d6e2d7b46",
+  "lastOpenFiles": [
+    "sguoo.github.io/README.md",
+    "sguoo.github.io/foudnation/frontend/HTML.md",
+    "sguoo.github.io/foudnation/frontend",
+    "sguoo.github.io/foudnation/프론트엔드/HTML.md",
+    "sguoo.github.io/foudnation/프론트엔드",
+    "sguoo.github.io/foudnation/전공/프론트엔드",
+    "sguoo.github.io/foudnation/전공",
+    "sguoo.github.io/foudnation/data.json",
+    "sguoo.github.io/foudnation",
+    "foudnation",
+    "sguoo.github.io/data.json",
+    "sguoo.github.io"
+  ]
+}
