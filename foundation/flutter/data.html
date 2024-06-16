@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="-dart-">[dart 기초]</h1>
+    <h1 id="-">기본 형태 - 줄을 세미콜론 단위로 구분한다.</h1>
+    <pre><code class="lang-dart"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+
+}
+</code></pre>
+    <h2 id="-">출력 함수 - 문자열을 출력</h2>
+    <pre><code class="lang-dart">print(<span class="hljs-string">""</span>)<span class="hljs-comment">;</span>
+</code></pre>
+    <h1 id="-var-">변수 선언 - var (변수명) = 값;</h1>
+    <pre><code class="lang-dart"><span class="hljs-attribute">var a</span> = 0;
+</code></pre>
+    <p>
+      Dart는 변수 선언에 자료형이 필요하지 않다 &lt;&lt; 처음 할당된 자료형으로
+      자동 변환된다.
+    </p>
+    <p>Dart에서 변수 재정의는 불가능하다.</p>
+    <ul>
+      <li>
+        <p>재정의를 한다면</p>
+        <pre><code class="lang-dart"><span class="hljs-attribute">  var a</span> = 0;
+<span class="hljs-attribute">  var a</span> = 1;
+</code></pre>
+        <p>오류</p>
+      </li>
+    </ul>
+    <h2 id="-c-">변수 선언 - C처럼 선언</h2>
+    <pre><code class="lang-dart"><span class="hljs-attribute">int a</span> = 1;
+<span class="hljs-attribute">String b</span> = <span class="hljs-string">"ABC"</span>;
+</code></pre>
+    <p>char는 없고 C처럼 선언하면 된다.</p>
+    <h2 id="-c-">대입 연산자의 사용 - C처럼 쓰자</h2>
+    <pre><code class="lang-dart">var a = <span class="hljs-number">1</span><span class="hljs-comment">;</span>
+print(a)<span class="hljs-comment">;</span>
+<span class="hljs-attribute">a</span> = <span class="hljs-number">2</span><span class="hljs-comment">;</span>
+print(a)<span class="hljs-comment">;</span>
+</code></pre>
+    <p>하나의 변수 a를 사용하여 두 값을 출력</p>
+    <h1 id="null-safety">null safety</h1>
+    <p>! - null checker &lt;&lt; null이면 중단</p>
+    <p>? - nullable &lt;&lt; null이 들어올 수 있음</p>
+    <p>?? - Nullish Coalescing &lt;&lt; 앞이 null이면 뒤의 값 사용</p>
+    <p>
+      <a href="https://son50math.tistory.com/88"
+        >[Flutter] 플러터 null safty와 ? ! 이해 (물음표, 느낌표)</a
+      >
+    </p>
+    <p>
+      <a href="https://daramji-joa.tistory.com/7"
+        >Double Exclamation Mark(느낌표 두개)</a
+      >
+    </p>
+    <p>
+      <a href="https://sneakstarberry.github.io/posts/dart03-operand/"
+        >[Dart]다트(3) - 특이한 연산자</a
+      >
+    </p>
+    <h1 id="callback-function">Callback function</h1>
+    <p>typedef DoubleCallback = void funcion(double);</p>
+    <p>
+      <a href="https://velog.io/@qlr222/Flutter-Callback-1"
+        >Flutter - Callback - 1</a
+      >
+    </p>
+  </body>
+</html>
