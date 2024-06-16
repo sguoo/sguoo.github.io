@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "foundation/frontend/data.md",
+                "file": "foundation/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "foundation/frontend/data.md",
+                "file": "foundation/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "foundation/frontend/data.md",
+                "file": "foundation/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "foundation/frontend/data.md"
+                "file": "foundation/README.md"
               }
             }
           }
@@ -151,6 +151,8 @@
   },
   "active": "7dcd9e9d6e2d7b46",
   "lastOpenFiles": [
+    "foundation/frontend/data.md",
+    "foundation/README.md",
     "README.md",
     "foundation/flutter/data.md",
     "foundation/flutter",
@@ -161,10 +163,8 @@
     "foudnation/data.json",
     "foudnation",
     "foundation/frontend/HTML.md",
-    "foundation/frontend/data.md",
     "foundation/algorithm/data.md",
     "foundation/algorithm",
-    "foundation/README.md",
     "마크업 언어.md",
     "foundation/frontend/frontend.md",
     "Excalidraw/Drawing 2024-06-14 18.21.55.excalidraw.md",
