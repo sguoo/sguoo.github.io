@@ -1,6 +1,6 @@
 # 노동요
 
-[![Help me, Erinnnnn!](https://img.youtube.com/vi/X8z23t428kU/0.jpg)](https://www.youtu.be/X8z23t428kU)
+[![Help me, Erinnnnn!](https://img.youtube.com/vi/X8z23t428kU/0.jpg)](https://youtu.be/X8z23t428kU)
 
 # Foundation 작성 규칙
 
