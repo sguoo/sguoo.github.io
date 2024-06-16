@@ -5,27 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      html {
+        background-color: #003465;
+        color: white;
+        text-align: justify;
+      }
+      a {
+        color: #fffbbf;
+        text-decoration-line: none;
+      }
       code {
         background-color: #eee;
         border-radius: 3px;
+        color: black;
         font-family: courier, monospace;
         padding: 0 3px;
       }
     </style>
   </head>
   <body>
-    <h1 id="-dart-">[dart 기초]</h1>
+    <h1 id="dart">Dart</h1>
+    <blockquote>
+      <p>추가할 거 있거나 수정할 거 있으면 망설이지 말고 수정</p>
+    </blockquote>
     <h1 id="-">기본 형태 - 줄을 세미콜론 단위로 구분한다.</h1>
     <pre><code class="lang-dart"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
     
-    }
-    </code></pre>
+    }</code></pre>
     <h2 id="-">출력 함수 - 문자열을 출력</h2>
-    <pre><code class="lang-dart">print(<span class="hljs-string">""</span>)<span class="hljs-comment">;</span>
-    </code></pre>
+    <pre><code class="lang-dart">print(<span class="hljs-string">""</span>)<span class="hljs-comment">;</span></code></pre>
     <h1 id="-var-">변수 선언 - var (변수명) = 값;</h1>
-    <pre><code class="lang-dart"><span class="hljs-attribute">var a</span> = 0;
-    </code></pre>
+    <pre><code class="lang-dart"><span class="hljs-attribute">var a</span> = 0;</code></pre>
     <p>
       Dart는 변수 선언에 자료형이 필요하지 않다 &lt;&lt; 처음 할당된 자료형으로
       자동 변환된다.
@@ -35,22 +45,19 @@
       <li>
         <p>재정의를 한다면</p>
         <pre><code class="lang-dart"><span class="hljs-attribute">  var a</span> = 0;
-    <span class="hljs-attribute">  var a</span> = 1;
-    </code></pre>
+    <span class="hljs-attribute">  var a</span> = 1;</code></pre>
         <p>오류</p>
       </li>
     </ul>
     <h2 id="-c-">변수 선언 - C처럼 선언</h2>
     <pre><code class="lang-dart"><span class="hljs-attribute">int a</span> = 1;
-    <span class="hljs-attribute">String b</span> = <span class="hljs-string">"ABC"</span>;
-    </code></pre>
+    <span class="hljs-attribute">String b</span> = <span class="hljs-string">"ABC"</span>;</code></pre>
     <p>char는 없고 C처럼 선언하면 된다.</p>
     <h2 id="-c-">대입 연산자의 사용 - C처럼 쓰자</h2>
     <pre><code class="lang-dart">var a = <span class="hljs-number">1</span><span class="hljs-comment">;</span>
     print(a)<span class="hljs-comment">;</span>
     <span class="hljs-attribute">a</span> = <span class="hljs-number">2</span><span class="hljs-comment">;</span>
-    print(a)<span class="hljs-comment">;</span>
-    </code></pre>
+    print(a)<span class="hljs-comment">;</span></code></pre>
     <p>하나의 변수 a를 사용하여 두 값을 출력</p>
     <h1 id="null-safety">null safety</h1>
     <p>! - null checker &lt;&lt; null이면 중단</p>
