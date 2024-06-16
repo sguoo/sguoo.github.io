@@ -12,3 +12,5 @@
 {dafault}/{major}/data/{chapter}.{type}
 
 로 이루어진다.
+
+major, chapter 디렉터리는 소문자로 이루어져야 하며, type는 [ html | md ]의 범위를 지닌다.
