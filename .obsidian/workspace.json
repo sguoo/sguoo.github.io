@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "foundation/README.md",
+                "file": "foundation/frontend/data.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "foundation/README.md",
+                "file": "foundation/frontend/data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "foundation/README.md",
+                "file": "foundation/frontend/data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "foundation/README.md"
+                "file": "foundation/frontend/data.md"
               }
             }
           }
@@ -151,10 +151,10 @@
   },
   "active": "7dcd9e9d6e2d7b46",
   "lastOpenFiles": [
+    "foundation/README.md",
     "foundation/frontend/data.json",
     "foundation/flutter/data copy.json",
     "foundation/frontend/data.md",
-    "foundation/README.md",
     "foundation/flutter/data.md",
     "foundation/flutter/data.json",
     "foundation/flutter/data.html",
@@ -167,7 +167,6 @@
     "qewqe",
     "foundation/qewqe",
     "foudnation/data.json",
-    "foudnation",
     "foundation/frontend/HTML.md",
     "foundation/algorithm/data.md",
     "마크업 언어.md",
