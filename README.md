@@ -6,4 +6,4 @@ Description is explanation
 
 [![Help me, Erinnnnn!](https://img.youtube.com/vi/X8z23t428kU/0.jpg)](https://youtu.be/X8z23t428kU)
 
-[![foundation\img\foundation logo.png](\img\foundation logo.png)]
+![foundation\img\foundation logo.png](\img\foundation logo.png)
