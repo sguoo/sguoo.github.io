@@ -19,4 +19,3 @@ html로 Hello World를 출력하는 방법
   </body>
 </html>
 ```
-
