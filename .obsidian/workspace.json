@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "foundation/README.md",
-                "mode": "preview",
+                "file": "foundation/frontend/data.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "foundation/README.md",
+                "file": "foundation/frontend/data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "foundation/README.md",
+                "file": "foundation/frontend/data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "foundation/README.md"
+                "file": "foundation/frontend/data.md"
               }
             }
           }
@@ -151,6 +151,7 @@
   },
   "active": "7dcd9e9d6e2d7b46",
   "lastOpenFiles": [
+    "foundation/README.md",
     "foundation/css/htmlfiletemplete.css",
     "foundation/css/htmlfile.css",
     "foundation/css",
@@ -163,9 +164,7 @@
     "foundation/font",
     "foundation/frontend/data/font",
     "foundation/frontend/image.png",
-    "foundation/README.md",
     "foundation/frontend/data.json",
-    "foundation/flutter/data copy.json",
     "foundation/flutter/data.md",
     "foundation/flutter/mddata.md",
     "foundation/flutter/dmdata.md",
