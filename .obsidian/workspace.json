@@ -151,6 +151,9 @@
   },
   "active": "7dcd9e9d6e2d7b46",
   "lastOpenFiles": [
+    "foundation/font/SpoqaHanSansNeo-Medium.otf",
+    "foundation/font",
+    "foundation/frontend/data/font",
     "foundation/frontend/image.png",
     "foundation/README.md",
     "foundation/frontend/data.json",
@@ -166,8 +169,6 @@
     "qewqe.py",
     "qewqe.p",
     "qewqe",
-    "foundation/qewqe",
-    "foudnation/data.json",
     "foundation/frontend/HTML.md",
     "foundation/algorithm/data.md",
     "마크업 언어.md",
