@@ -49,3 +49,8 @@ a {
   text-decoration: none;
   color: aquamarine;
 }
+
+.error {
+  color: red;
+  text-decoration: underline red;
+}
