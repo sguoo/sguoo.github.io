@@ -31,11 +31,12 @@ pre {
 
 .tableTag {
   text-align: center;
-  border: rgb(144, 93, 0) solid;
+  border: hsl(222, 31%, 21%) solid;
   color: black;
   padding: 5px 10px;
   margin: auto;
-  background-color: rgb(255, 166, 0);
+  background-color: #3755a2;
+  border-collapse: collapse;
 }
 
 .mainTextBorder {
