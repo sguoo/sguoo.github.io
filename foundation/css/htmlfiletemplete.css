@@ -28,6 +28,14 @@ pre {
   background-color: white;
   margin: auto;
 }
+.tableqweqewq {
+  text-align: center;
+  border: orange solid;
+  color: black;
+  padding: 5px 10px;
+  border-collapse: collapse;
+  margin: auto;
+}
 .mainTextBorder {
   line-height: 2em;
   font-size: smaller;
