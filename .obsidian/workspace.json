@@ -149,8 +149,11 @@
       "media-extended:Open media": false
     }
   },
-  "active": "7dcd9e9d6e2d7b46",
+  "active": "d984afe2a7660d92",
   "lastOpenFiles": [
+    "foundation/algorithm/data/concept.md",
+    "foundation/algorithm/data",
+    "foundation/algorithm/data.json",
     "foundation/README.md",
     "foundation/css/htmlfiletemplete.css",
     "foundation/css/htmlfile.css",
@@ -162,9 +165,7 @@
     "foundation/frontend/data/Maplestory Bold.ttf",
     "foundation/font/SpoqaHanSansNeo-Medium.otf",
     "foundation/font",
-    "foundation/frontend/data/font",
     "foundation/frontend/image.png",
-    "foundation/frontend/data.json",
     "foundation/flutter/data.md",
     "foundation/flutter/mddata.md",
     "foundation/flutter/dmdata.md",
