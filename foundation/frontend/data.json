@@ -1,4 +1,5 @@
 {
   "type": "html",
-  "chapter": ["HTML", "CSS", "JS", "DHTML", "REACT", "NEXT"]
+  "chapter": ["HTML", "CSS", "JS", "DHTML", "REACT", "NEXT"],
+  "test": ["CSS 기초 학력평가"]
 }
