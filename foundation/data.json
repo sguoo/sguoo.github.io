@@ -1,5 +1,4 @@
 {
-    "version" : "0.2",
-    "url" : "https://drive.google.com/file/d/1Tb7I-qtu2KEEl8SqDmVtJSXTv6AG8-NM/view?usp=sharing",
-    "major" : ["Algorithm", "Frontend", "Flutter", "Game", "Node.js"]
+  "major": ["Algorithm", "Frontend", "Flutter", "Unity", "Node.js"],
+  "test": ["Frontend", "Flutter", "Unity"]
 }
