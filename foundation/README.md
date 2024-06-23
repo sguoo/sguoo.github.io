@@ -11,10 +11,15 @@
 ## Route Path
 ### chapter
 {dafault}
+
 └{major}
+
  └data
+ 
   └{chapter}.{type}
+  
  └test
+ 
   └{test}.json
 
 lowercase required : dir(major, chapter, test) domain : type [ html | md | web ]
