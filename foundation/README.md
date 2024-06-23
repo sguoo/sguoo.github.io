@@ -2,13 +2,8 @@
 
 ## Path Define
 
-<<<<<<< HEAD
-- default : https://sguoo.github.io/foundation
-- major : **default/data** - major:selected.toLowerCase()
-=======
 - default : **https://sguoo.github.io/foundation**
 - major : **default/data.json** - major:selected.toLowerCase()
->>>>>>> 961fe0e106b0b5c8ac7bf77473a5eff294ad38ed
 - chapter : **default/major/data.json** - chapter:selected.toLowerCase()
 - test : **default/major/data.json** - test:selected.toLowerCase()
 - type : **default/major/data.json** - type.toLowerCase()
@@ -35,7 +30,6 @@ DIR
 - test : Each test element selectable in the major
 
 TYPE
-
 - html : open chapter.html
 - md : open chapter.md
 - web : open webview of url in chapter.txt
