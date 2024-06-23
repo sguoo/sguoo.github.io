@@ -3,7 +3,7 @@
 ## Path Define
 
 - default : https://sguoo.github.io/foundation
-- major : **default/data.json** - major:selected.toLowerCase()
+- major : **default/data** - major:selected.toLowerCase()
 - chapter : **default/major/data.json** - chapter:selected.toLowerCase()
 - test : **default/major/data.json** - test:selected.toLowerCase()
 - type : **default/major/data.json** - type (lowercase required)
@@ -17,6 +17,7 @@
 major, chapter 디렉터리는 소문자로 이루어져야 하며, type는 [ html | md | web ]의 범위를 지닌다.
 
 TYPE
+
 - html : open chapter.html
 - md : open chapter.md
 - web : open webview of url in chapter.txt
