@@ -12,15 +12,15 @@
 ### chapter
 {dafault}
 
-└{major}
+&nbsp;└{major}
 
- └data
+&nbsp;&nbsp;└data
  
-  └{chapter}.{type}
+&nbsp;&nbsp;&nbsp;└{chapter}.{type}
   
- └test
+&nbsp;&nbsp;└test
  
-  └{test}.json
+&nbsp;&nbsp;&nbsp;└{test}.json
 
 lowercase required : dir(major, chapter, test) domain : type [ html | md | web ]
 
