@@ -65,3 +65,7 @@ a {
   color: red;
   text-decoration: underline red;
 }
+
+.margin-auto {
+  margin: auto;
+}
