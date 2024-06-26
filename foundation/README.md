@@ -18,7 +18,7 @@
  
 &nbsp;&nbsp;│&nbsp;└─{chapter}.{type}
   
-&nbsp;&nbsp;└─test
+&nbsp;&nbsp;└┬test
  
 &nbsp;&nbsp;&nbsp;└{test}.json
 
