@@ -16,7 +16,7 @@
 
 &nbsp; &nbsp;├┬data
  
-&nbsp;&nbsp;│&nbsp;└─{chapter}.{type}
+ &nbsp;&nbsp;│&nbsp;└─{chapter}.{type}
   
 &nbsp;&nbsp;└┬test
  
