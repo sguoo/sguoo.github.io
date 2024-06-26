@@ -12,9 +12,9 @@
 ### chapter
 {dafault}
 
-&nbsp;├┬{major}
+&nbsp;└┬{major}
 
-&nbsp;&nbsp;├┬data
+&nbsp; &nbsp;├┬data
  
 &nbsp;&nbsp;│&nbsp;└─{chapter}.{type}
   
