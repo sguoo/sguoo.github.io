@@ -6,7 +6,7 @@ html {
   background-color: rgb(0, 0, 55);
 }
 
-pre {
+pre code {
   line-height: normal;
   font-family: monospace;
   background-color: #2d2f34;
