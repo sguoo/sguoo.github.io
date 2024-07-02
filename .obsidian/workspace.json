@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d81c03875059412e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -149,7 +160,7 @@
       "media-extended:Open media": false
     }
   },
-  "active": "7dcd9e9d6e2d7b46",
+  "active": "d81c03875059412e",
   "lastOpenFiles": [
     "foundation/frontend/data/css.html",
     "foundation/algorithm/test/자고로 알고리즘이란.json",
