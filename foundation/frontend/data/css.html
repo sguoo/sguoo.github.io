@@ -487,68 +487,70 @@
       </ul>
       <h2 id="-">구조 가상 클래스</h2>
       <h3 id="-">특정 위치의 자식요소 선택하기</h3>
-      <table class="margin-auto;">
-        <tr class="tableTag">
-          <th class="tableTag">종류</th>
-          <th class="tableTag">설명</th>
-        </tr>
-        <tr class="tableTag">
-          <td class="tableTag">:first-child</td>
-          <td class="tableTag">
-            모든 자식요소 중에서 첫 번째에 위치하는 요소들을 모두 선택
-          </td>
-        </tr>
-        <tr class="tableTag">
-          <td class="tableTag">:last-child</td>
-          <td class="tableTag">
-            모든 자식요소 중에서 마지막에 위치하는 요소를 선택한다
-          </td>
-        </tr>
-        <tr class="tableTag">
-          <td class="tableTag">:nth-child(n)&:nth-last-child(n)</td>
-          <td class="tableTag">
-            모든 자식 요소 중에서 n번째에 해당하는 요소를 선택, last-child는
-            뒤에서부터 선택<br />0과 음수는 생략된다. 2n+1과 2n-1, 3n+1과 3n-1은
-            같은 수열을 생성한다.
-          </td>
-        </tr>
-        <tr class="tableTag">
-          <td class="tableTag">:first-of-type & :last-of-type</td>
-          <td class="tableTag">
-            형제 요소중 자신의 요소와 일치하는 첫 번째 요소를 선택<br />
-            last는 뒤에서부터
-          </td>
-        </tr>
-        <tr class="tableTag">
-          <td class="tableTag">:ntf-of-type() & :ntf-of-last-type()</td>
-          <td class="tableTag">
-            형제 요소 중에서 n번째 요소를 선택 <br />last는 뒤에서부터
-          </td>
-        </tr>
+      <summary>
+        <table class="margin-auto;">
+          <tr class="tableTag">
+            <th class="tableTag">종류</th>
+            <th class="tableTag">설명</th>
+          </tr>
+          <tr class="tableTag">
+            <td class="tableTag">:first-child</td>
+            <td class="tableTag">
+              모든 자식요소 중에서 첫 번째에 위치하는 요소들을 모두 선택
+            </td>
+          </tr>
+          <tr class="tableTag">
+            <td class="tableTag">:last-child</td>
+            <td class="tableTag">
+              모든 자식요소 중에서 마지막에 위치하는 요소를 선택한다
+            </td>
+          </tr>
+          <tr class="tableTag">
+            <td class="tableTag">:nth-child(n)&:nth-last-child(n)</td>
+            <td class="tableTag">
+              모든 자식 요소 중에서 n번째에 해당하는 요소를 선택, last-child는
+              뒤에서부터 선택<br />0과 음수는 생략된다. 2n+1과 2n-1, 3n+1과
+              3n-1은 같은 수열을 생성한다.
+            </td>
+          </tr>
+          <tr class="tableTag">
+            <td class="tableTag">:first-of-type & :last-of-type</td>
+            <td class="tableTag">
+              형제 요소중 자신의 요소와 일치하는 첫 번째 요소를 선택<br />
+              last는 뒤에서부터
+            </td>
+          </tr>
+          <tr class="tableTag">
+            <td class="tableTag">:ntf-of-type() & :ntf-of-last-type()</td>
+            <td class="tableTag">
+              형제 요소 중에서 n번째 요소를 선택 <br />last는 뒤에서부터
+            </td>
+          </tr>
 
-        <tr class="tableTag">
-          <td class="tableTag">:only-child</td>
-          <td class="tableTag">
-            부모안에 자식요소가 하나 뿐일 때 자식 요소를 선택
-          </td>
-        </tr>
-        <tr class="tableTag">
-          <td class="tableTag">A:only-type-of</td>
-          <td class="tableTag">부모 안에 A요소가 하나 뿐일 때 선택</td>
-        </tr>
-        <tr class="tableTag">
-          <td class="tableTag">:empty</td>
-          <td class="tableTag">자식이 없는 요소 선택</td>
-        </tr>
-        <tr class="tableTag">
-          <td class="tableTag">:root</td>
-          <td class="tableTag">
-            html의 최상위의 문서를 지정(우선순위가 가장 높다)
-            <br />
-            html에서 사용하는 모든 요소들에 대한 스타일을 정의할 수 있음
-          </td>
-        </tr>
-      </table>
+          <tr class="tableTag">
+            <td class="tableTag">:only-child</td>
+            <td class="tableTag">
+              부모안에 자식요소가 하나 뿐일 때 자식 요소를 선택
+            </td>
+          </tr>
+          <tr class="tableTag">
+            <td class="tableTag">A:only-type-of</td>
+            <td class="tableTag">부모 안에 A요소가 하나 뿐일 때 선택</td>
+          </tr>
+          <tr class="tableTag">
+            <td class="tableTag">:empty</td>
+            <td class="tableTag">자식이 없는 요소 선택</td>
+          </tr>
+          <tr class="tableTag">
+            <td class="tableTag">:root</td>
+            <td class="tableTag">
+              html의 최상위의 문서를 지정(우선순위가 가장 높다)
+              <br />
+              html에서 사용하는 모든 요소들에 대한 스타일을 정의할 수 있음
+            </td>
+          </tr>
+        </table>
+      </summary>
     </div>
   </body>
 </html>
