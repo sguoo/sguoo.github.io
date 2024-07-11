@@ -23,9 +23,11 @@
             "id": "d81c03875059412e",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.5"
+                "file": "foundation/algorithm/data/concept.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "foundation/README.md",
+                "file": "foundation/algorithm/data/concept.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "foundation/README.md",
+                "file": "foundation/algorithm/data/concept.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "foundation/README.md"
+                "file": "foundation/algorithm/data/concept.md"
               }
             }
           }
@@ -160,8 +162,10 @@
       "media-extended:Open media": false
     }
   },
-  "active": "d81c03875059412e",
+  "active": "d984afe2a7660d92",
   "lastOpenFiles": [
+    "README.md",
+    "foundation/README.md",
     "foundation/frontend/data/css.html",
     "foundation/algorithm/test/자고로 알고리즘이란.json",
     "foundation/algorithm/test",
@@ -170,12 +174,9 @@
     "foundation/algorithm/data/concept.md",
     "foundation/algorithm/data",
     "foundation/algorithm/data.json",
-    "foundation/README.md",
     "foundation/css/htmlfiletemplete.css",
     "foundation/css/htmlfile.css",
     "foundation/css",
-    "foundation/frontend/data/css",
-    "README.md",
     "foundation/frontend/data.md",
     "foundation/frontend/image.png",
     "foundation/flutter/data.md",
