@@ -6,31 +6,37 @@
     <link rel="stylesheet" href="../../css/htmlfiletemplete.css" />
   </head>
   <body>
-    <div class="mainTextBorder"><h1 id="-">스타일과 스타일 시트</h1>
-        <h2 id="-">스타일 시트</h2>
-        <ul>
-        <li>스타일 규칙을 한눈에 확인하고 필요할 때마다 수정하기 쉽도록 한군데 모아놓은 것
-        ![[css Style]]</li>
-        </ul>
-        <h2 id="-">사용자 스타일</h2>
-        <ul>
+    <div class="mainTextBorder">
+      <h1 id="-">스타일과 스타일 시트</h1>
+      <h2 id="-">스타일 시트</h2>
+      <ul>
+        <li>
+          스타일 규칙을 한눈에 확인하고 필요할 때마다 수정하기 쉽도록 한군데
+          모아놓은 것 ![[css Style]]
+        </li>
+      </ul>
+      <h2 id="-">사용자 스타일</h2>
+      <ul>
         <li>사이트 제작자가 만든 것</li>
-        </ul>
-        <h2 id="-">브라우저 기본 스타일</h2>
-        <ul>
+      </ul>
+      <h2 id="-">브라우저 기본 스타일</h2>
+      <ul>
         <li>웹 브라우저에 기본으로 만들어져 있는 것</li>
-        </ul>
-        <h3 id="-">인라인 스타일</h3>
-        <ul>
-        <li>스타일 시트를 사용하지 않고 스타일을 적용할 대상에 직접 표시 한 것        </li>
-        </ul><pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>레드향<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+      </ul>
+      <h3 id="-">인라인 스타일</h3>
+      <ul>
+        <li>
+          스타일 시트를 사용하지 않고 스타일을 적용할 대상에 직접 표시 한 것
+        </li>
+      </ul>
+      <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>레드향<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"color: blue;"</span>&gt;</span> 껍질에 붉은 빛이 돌아 레드향이라 불린다.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>레드향은 한라봉과 귤을 교배한 것으로.....<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>비타민 C와 비타민 P가 풍부해 .....<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         </code></pre>
 
-        <h3 id="-">내부 스타일 시트</h3>
-        <pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+      <h3 id="-">내부 스타일 시트</h3>
+      <pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"ko"</span>&gt;</span>
           <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
             <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"UTF-8"</span> /&gt;</span>
@@ -52,14 +58,14 @@
           <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
         </code></pre>
-        <h3 id="-">외부 스타일 시트</h3>
-        <ul>
+      <h3 id="-">외부 스타일 시트</h3>
+      <ul>
         <li>별도 파일로 저장해 필요할 때 가져오는 것</li>
-        </ul>
-        <p>기본형: </p>
-        <pre><code class="lang-html">&lt;link <span class="hljs-keyword">rel</span>=<span class="hljs-string">"stylesheet"</span> href=<span class="hljs-string">"외부 스타일 시트 파일 경로"</span>
+      </ul>
+      <p>기본형:</p>
+      <pre><code class="lang-html">&lt;link <span class="hljs-keyword">rel</span>=<span class="hljs-string">"stylesheet"</span> href=<span class="hljs-string">"외부 스타일 시트 파일 경로"</span>
         </code></pre>
-        <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+      <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
         <span class="hljs-selector-tag">h1</span> {
             <span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span>;
             <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#222</span>;
@@ -67,7 +73,7 @@
         }
         </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
         </code></pre>
-        <pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+      <pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"ko"</span>&gt;</span>
           <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
             <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"UTF-8"</span> /&gt;</span>
@@ -82,26 +88,25 @@
           <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
         </code></pre>
-        <h1 id="-">기본 선택자</h1>
-        <h2 id="-">전체 선택자</h2>
-        <ul>
+      <h1 id="-">기본 선택자</h1>
+      <h2 id="-">전체 선택자</h2>
+      <ul>
         <li>페이지에 있는 모든 요소를 대상으로 적용할 때 사용</li>
         <li>웹 브라우저의 기본 스타일을 초기화 할때 자주 사용</li>
-        </ul>
-        <p>기본형 : <code>* { 속성: 값; ...}</code></p>
-        <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">!<span class="hljs-selector-attr">[[css style.canvas]</span>]
+      </ul>
+      <p>기본형 : <code>* { 속성: 값; ...}</code></p>
+      <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">!<span class="hljs-selector-attr">[[css style.canvas]</span>]
          *{
              <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
          }
          </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
         </code></pre>
-        <h2 id="-">타입 선택자</h2>
-        <ul>
+      <h2 id="-">타입 선택자</h2>
+      <ul>
         <li>문서에서 특정 태그를 사용한 모든 요소에 스타일이 적용됨</li>
-        </ul>
-        <p>기본형 : <code>태그형 { 스타일 규칙 }</code>
-        </p>
-        <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+      </ul>
+      <p>기본형 : <code>태그형 { 스타일 규칙 }</code></p>
+      <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
             <span class="hljs-selector-tag">p</span> {
                 <span class="hljs-attribute">font-style</span>: italic; <span class="hljs-comment">/* 이텔릭 체 */</span>
             }
@@ -114,13 +119,15 @@
             <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>비타민 C와 비타민 P가 풍부해<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         </code></pre>
-        <h2 id="class-">class 선택자</h2>
-        <ul>
+      <h2 id="class-">class 선택자</h2>
+      <ul>
         <li>요소의 특정 부분에만 스타일 적용</li>
         <li>마침표( . )다음에 클래스 이름 지정</li>
-        <li>문서 안에서 여러 번 반복할 스타일이라면 클래스 선택자로 정의
-        기본형 : <code>.클래스명 { 스타일 규칙 }</code></li>
-        </ul>
+        <li>
+          문서 안에서 여러 번 반복할 스타일이라면 클래스 선택자로 정의 기본형 :
+          <code>.클래스명 { 스타일 규칙 }</code>
+        </li>
+      </ul>
       <pre><code class="lang-html">  <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
               <span class="hljs-selector-tag">p</span> {
                   <span class="hljs-attribute">font-style</span>: italic; <span class="hljs-comment">/* 이텔릭체 */</span>
@@ -146,12 +153,14 @@
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         </code></pre>
 
-        <h2 id="id-">id 선택자</h2>
-        <ul>
+      <h2 id="id-">id 선택자</h2>
+      <ul>
         <li>요소의 특정 부분에만 스타일 적용</li>
         <li>파운드(#) 다음에 id 이름 지정</li>
-        <li>문서 안에서 한번만 사용한다면 id 선택자로 정의
-        기본형 : <code>#아이디명 { 스타일 규칙 }</code><pre><code class="lang-html">(... 생략 ...)
+        <li>
+          문서 안에서 한번만 사용한다면 id 선택자로 정의 기본형 :
+          <code>#아이디명 { 스타일 규칙 }</code>
+          <pre><code class="lang-html">(... 생략 ...)
         <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
           <span class="hljs-selector-id">#container</span> {
               <span class="hljs-attribute">width</span>: <span class="hljs-number">500px</span>;           <span class="hljs-comment">/* 너비 */</span>
@@ -165,11 +174,13 @@
            <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>레드향<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
         (... 생략 ...)
         </code></pre>
-        <h2 id="-">그룹 선택자</h2>
+          <h2 id="-">그룹 선택자</h2>
         </li>
         <li>같은 스타일을 사용하는 선택자를 한꺼번에 정의</li>
-        <li>쉼표( , )로 구분해 여러 선택자를 나열
-        기본형 <code>선택자1, 선택자2 { 스타일 규칙 }</code><pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+        <li>
+          쉼표( , )로 구분해 여러 선택자를 나열 기본형
+          <code>선택자1, 선택자2 { 스타일 규칙 }</code>
+          <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
           <span class="hljs-selector-tag">h1</span> {
               <span class="hljs-attribute">text-align</span>: center; <span class="hljs-comment">/*중앙 정렬*/</span>
           }
@@ -178,29 +189,51 @@
           }
         </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
         </code></pre>
-        <h1 id="-">캐스케이딩 스타일 시트</h1>
-        <h2 id="-">캐스케이딩의 의미</h2>
+          <h1 id="-">캐스케이딩 스타일 시트</h1>
+          <h2 id="-">캐스케이딩의 의미</h2>
         </li>
-        <li>캐스캐이딩(Cascading) : &#39;위에서 아래로 흐른다&#39;는 뜻. 즉 계단식으로 적용된다는 의미로 사용</li>
-        <li>선택자에 여러 스타일이 적용될 때 스타일 충돌을 막기 위해 우선순위에 따라 적용할 스타일을 결정함<h2 id="-">스타일 충돌을 막는(캐스캐이딩)의 원칙</h2>
+        <li>
+          캐스캐이딩(Cascading) : &#39;위에서 아래로 흐른다&#39;는 뜻. 즉
+          계단식으로 적용된다는 의미로 사용
         </li>
-        <li><strong>스타일 우선순위</strong> - 스타일 규칙의 중요도와 적용 범위에 따라 우선순위가 적용되고 그 우선 순위에 따라 위에서 아래로 스타일 적용</li>
-        <li><strong>스타일 상속</strong> - 태그들의 포함 관계에 따라 부모 요소의 스타일을 자식요소로, 위에서 아래로 전달<blockquote>
-        <p>[!warning] 스타일 시트에서 &#39;캐스캐이딩&#39;은 가장 기본적인 개념이기 때문에 일반적으로 &#39;스타일 시트&#39;는 &#39;캐스캐이딩 스타일 시트(CSS)&#39;와 같은 의미로 사용됨</p>
-        </blockquote>
+        <li>
+          선택자에 여러 스타일이 적용될 때 스타일 충돌을 막기 위해 우선순위에
+          따라 적용할 스타일을 결정함
+          <h2 id="-">스타일 충돌을 막는(캐스캐이딩)의 원칙</h2>
         </li>
-        </ul>
-        <h3 id="-span-style-color-red-1-span-"><strong><span style="color: red;">원칙 1. 스타일 우선 순위</span></strong></h3>
-        <ol>
-        <li><p>얼마나 중요한가에 따라
-        ![[Cascading style sheet 1|250]]</p>
+        <li>
+          <strong>스타일 우선순위</strong> - 스타일 규칙의 중요도와 적용 범위에
+          따라 우선순위가 적용되고 그 우선 순위에 따라 위에서 아래로 스타일 적용
         </li>
-        <li><p>얼마나 한정지을 수 있는가에 따라
-        ![[Cascading style sheet 2|350]]</p>
+        <li>
+          <strong>스타일 상속</strong> - 태그들의 포함 관계에 따라 부모 요소의
+          스타일을 자식요소로, 위에서 아래로 전달
+          <blockquote>
+            <p>
+              [!warning] 스타일 시트에서 &#39;캐스캐이딩&#39;은 가장 기본적인
+              개념이기 때문에 일반적으로 &#39;스타일 시트&#39;는 &#39;캐스캐이딩
+              스타일 시트(CSS)&#39;와 같은 의미로 사용됨
+            </p>
+          </blockquote>
+        </li>
+      </ul>
+      <h3 id="-span-style-color-red-1-span-">
+        <strong
+          ><span style="color: red">원칙 1. 스타일 우선 순위</span></strong
+        >
+      </h3>
+      <ol>
+        <li><p>얼마나 중요한가에 따라 ![[Cascading style sheet 1|250]]</p></li>
+        <li>
+          <p>
+            얼마나 한정지을 수 있는가에 따라 ![[Cascading style sheet 2|350]]
+          </p>
         </li>
         <li><p>소스 순서에 따라</p></li>
         <li>중요도와 명시도가 같다면 소스 순서에 따라 결정</li>
-        <li>소스에서 나중에 온 스타일이 먼저 온 스타일을 덮어씀</li></ol><pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+        <li>소스에서 나중에 온 스타일이 먼저 온 스타일을 덮어씀</li>
+      </ol>
+      <pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"ko"</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"UTF-8"</span> /&gt;</span>
@@ -227,149 +260,272 @@
         <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
         </code></pre>
-        <h3 id="-span-style-color-red-2-span-"><strong><span style="color: red">원칙 2: 스타일 상속</span></strong></h3>
+      <h3 id="-span-style-color-red-2-span-">
+        <strong><span style="color: red">원칙 2: 스타일 상속</span></strong>
+      </h3>
 
-
-        <li>자식요소에서 별도로 스타일을 지정하지 않으면 부모 요소의 스타일이 자식 요소로 전달 된다.<blockquote>
-        <p>[!warning] 배경색과 배경이미지는 스타일 상속이 되지 않는다. 그리고 상속만으로 모든 스타일의 충돌을 해결할 수 있는 것은 아니다.</p>
+      <li>
+        자식요소에서 별도로 스타일을 지정하지 않으면 부모 요소의 스타일이 자식
+        요소로 전달 된다.
+        <blockquote>
+          <p>
+            [!warning] 배경색과 배경이미지는 스타일 상속이 되지 않는다. 그리고
+            상속만으로 모든 스타일의 충돌을 해결할 수 있는 것은 아니다.
+          </p>
         </blockquote>
-        </li>
-        <h1 id="-">스타일</h1>
-        <h2 id="-">글꼴 관련 스타일</h2>
-        <hr>
-        <h3 id="font-style-">font-style 속성</h3>
-        <ul>
-        <li>글자를 이텔릭체 로 표시하는 속셩<h3 id="font-family-">font-family 속성</h3>
+      </li>
+      <h1 id="-">스타일</h1>
+      <h2 id="-">글꼴 관련 스타일</h2>
+      <hr />
+      <h3 id="font-style-">font-style 속성</h3>
+      <ul>
+        <li>
+          글자를 이텔릭체 로 표시하는 속셩
+          <h3 id="font-family-">font-family 속성</h3>
         </li>
         <li>웹 문서에서 사용할 글꼴 지정</li>
-        <li>\<body> 태그를 비롯해 \<p> 태그나 \<hn>태그처럼 텍스트를 사용하는 요소들에서 사용</li>
-        <li>지정한 글꼴이 없을 경우를 대비해 두 번째, 세 번째 글꼴 까지 지정</li>
+        <li>
+          &lt;body&gt; 태그를 비롯해 &lt;p&gt; 태그나 &lt;hn&gt;태그처럼
+          텍스트를 사용하는 요소들에서 사용
+        </li>
+        <li>
+          지정한 글꼴이 없을 경우를 대비해 두 번째, 세 번째 글꼴 까지 지정
+        </li>
         <li>둘 이상의 글꼴 이름을 지정 할 때는 쉼표( , )로 글꼴 구분</li>
-        <li>\<body> 태그 스타일에서 한 번 정의 하면 문서 전체 적용에 적용되고 문서 안의 모든 자식요에 계속 같은 글꼴이 사용됨</li>
-        </ul>
-        <h3 id="font-size-">font-size 속성</h3>
-        <ul>
-        <li>폰트의 크기를 지정하는 속성
-        기본형: <code>font-size: &lt;절대 크기&gt; | &lt;상대 크기&gt; | &lt;크기&gt; | &lt;백분율&gt;</code><h4 id="-">키워드를 이용한 글자 크기 지정하기</h4>
+        <li>
+          &lt;body&gt; 태그 스타일에서 한 번 정의 하면 문서 전체 적용에 적용되고
+          문서 안의 모든 자식요에 계속 같은 글꼴이 사용됨
         </li>
-        <li><code>xx-smaill &lt; x-smaill &lt; small &lt; medium &lt; large &lt; x-large &lt; xx-large</code></li>
-        </ul>
-        <h3 id="font-weight">font-weight</h3>
-        <ul>
-        <li>글자 굵기를 조절하는 속성
-        기본형: <code>font-weight: normal | bold | bolder | lighter | 100 | 200 | ... | 800 | 900</code></li>
-        </ul>
-        <h2 id="-">웹 폰트 사용하기</h2>
-        <h3 id="-"><strong>웹 폰트란</strong></h3>
-        <ul>
-        <li>웹 문서 안에 글꼴 정보도 함께 저장했다가 사용자가 웹 문서에 접속하면 글꼴을 사용자 시스템으로 다운로드 시켜 사용하는 글꼴</li>
-        <li>사용자 시스템에 없는 글꼴이더라도 웹 제작자가 의도한 대로 텍스트를 표시 할 수 있다.</li>
-        <li>@font-face 속성 사용<h3 id="-"><strong>직접 웹 폰트 업로드해 사용하기</strong></h3>
+      </ul>
+      <h3 id="font-size-">font-size 속성</h3>
+      <ul>
+        <li>
+          폰트의 크기를 지정하는 속성 기본형:
+          <code
+            >font-size: &lt;절대 크기&gt; | &lt;상대 크기&gt; | &lt;크기&gt; |
+            &lt;백분율&gt;</code
+          >
+          <h4 id="-">키워드를 이용한 글자 크기 지정하기</h4>
         </li>
-        <li>웹 폰트<h2 id="-">텍스트 관련 스타일</h2>
-        <h3 id="color-">color 속성</h3>
+        <li>
+          <code
+            >xx-smaill &lt; x-smaill &lt; small &lt; medium &lt; large &lt;
+            x-large &lt; xx-large</code
+          >
+        </li>
+      </ul>
+      <h3 id="font-weight">font-weight</h3>
+      <ul>
+        <li>
+          글자 굵기를 조절하는 속성 기본형:
+          <code
+            >font-weight: normal | bold | bolder | lighter | 100 | 200 | ... |
+            800 | 900</code
+          >
+        </li>
+      </ul>
+      <h2 id="-">웹 폰트 사용하기</h2>
+      <h3 id="-"><strong>웹 폰트란</strong></h3>
+      <ul>
+        <li>
+          웹 문서 안에 글꼴 정보도 함께 저장했다가 사용자가 웹 문서에 접속하면
+          글꼴을 사용자 시스템으로 다운로드 시켜 사용하는 글꼴
+        </li>
+        <li>
+          사용자 시스템에 없는 글꼴이더라도 웹 제작자가 의도한 대로 텍스트를
+          표시 할 수 있다.
+        </li>
+        <li>
+          @font-face 속성 사용
+          <h3 id="-"><strong>직접 웹 폰트 업로드해 사용하기</strong></h3>
+        </li>
+        <li>
+          웹 폰트
+          <h2 id="-">텍스트 관련 스타일</h2>
+          <h3 id="color-">color 속성</h3>
         </li>
         <li>글자 색 지정</li>
-        <li>16진수 값이나 rgb값, hsi 값, 색상 이름 중에서 사용
-        ![[css pyogibub|1000]]<h1 id="-">연결 선택자</h1>
+        <li>
+          16진수 값이나 rgb값, hsi 값, 색상 이름 중에서 사용 ![[css
+          pyogibub|1000]]
+          <h1 id="-">연결 선택자</h1>
         </li>
-        <li>연결 선택자: 선택자와 선택자를 연결해 적용 대상을 제한하는 선택자.</li>
-        <li><strong>컴미네이션 선택자</strong><sup>combination selector</sup> 또는 &#39;조합 선택자&#39;라고도 함<h2 id="-sup-descendant-selector-sup-">하위 선택자<sup>descendant selector</sup></h2>
+        <li>
+          연결 선택자: 선택자와 선택자를 연결해 적용 대상을 제한하는 선택자.
         </li>
-        <li>부모 요소에 포함된<span style="color: red"><U>모든 하위 요소</U></span>에 스타일이 적용된다.</li>
-        <li>자식 요소뿐만 아니라 손자 요소, 손자의 손자 요소 등 모든 하위 요소까지 적용</li>
-        <li>하위선택자를 정의할 때는 상위요소와 하위요소를 나란히 쓴다
-        <code>기본형: 상위요소 하위요소</code>
-        ![[css yungul selector]]<h2 id="-">자식 선택자</h2>
+        <li>
+          <strong>컴미네이션 선택자</strong><sup>combination selector</sup> 또는
+          &#39;조합 선택자&#39;라고도 함
+          <h2 id="-sup-descendant-selector-sup-">
+            하위 선택자<sup>descendant selector</sup>
+          </h2>
         </li>
-        <li><strong>자식선택자</strong><sup>child selector</sup>는 하위선택자와는 다르게 자식 요소에만 스타일을 적용한다</li>
-        <li><code>부모요소 &gt; 자식요소</code><h2 id="-">인접 형제 선택자</h2>
+        <li>
+          부모 요소에 포함된<span style="color: red"><u>모든 하위 요소</u></span
+          >에 스타일이 적용된다.
         </li>
-        <li>형제 요소[^1] 중 첫번째 동생 요소만 선택하는 것을 <strong>인접 형제 선택자</strong><sup>adjacent selector</sup>라고 한다</li>
+        <li>
+          자식 요소뿐만 아니라 손자 요소, 손자의 손자 요소 등 모든 하위 요소까지
+          적용
+        </li>
+        <li>
+          하위선택자를 정의할 때는 상위요소와 하위요소를 나란히 쓴다
+          <code>기본형: 상위요소 하위요소</code>
+          ![[css yungul selector]]
+          <h2 id="-">자식 선택자</h2>
+        </li>
+        <li>
+          <strong>자식선택자</strong><sup>child selector</sup>는 하위선택자와는
+          다르게 자식 요소에만 스타일을 적용한다
+        </li>
+        <li>
+          <code>부모요소 &gt; 자식요소</code>
+          <h2 id="-">인접 형제 선택자</h2>
+        </li>
+        <li>
+          형제 요소[^1] 중 첫번째 동생 요소만 선택하는 것을
+          <strong>인접 형제 선택자</strong><sup>adjacent selector</sup>라고 한다
+        </li>
         <li>요소 1과 요소 2 사이에 &#39;+&#39;기호를 표시한다</li>
         <li><code>요소1 + 요소2</code></li>
-        </ul>
-        <p>[^1]: 부모요소가 같을 경우 형제 관계라고 한다</p>
-        <h2 id="-">형제 선택자</h2>
-        <ul>
+      </ul>
+      <p>[^1]: 부모요소가 같을 경우 형제 관계라고 한다</p>
+      <h2 id="-">형제 선택자</h2>
+      <ul>
         <li>형제 요소 전체에 스타일 적용</li>
         <li><code>요소1 ~ 요소2</code></li>
-        </ul>
-        <h1 id="-">가상 클래스와 가상 요소</h1>
-        <h2 id="-">사용자의 동작에 반응하는 가상 클래스</h2>
-        <ul>
-        <li><p>웹 요소 클릭이나 마우스 포인터를 올려뒀을때 스타일이 바뀌는 선택자</p>
+      </ul>
+      <h1 id="-">가상 클래스와 가상 요소</h1>
+      <h2 id="-">사용자의 동작에 반응하는 가상 클래스</h2>
+      <ul>
+        <li>
+          <p>
+            웹 요소 클릭이나 마우스 포인터를 올려뒀을때 스타일이 바뀌는 선택자
+          </p>
         </li>
-        <li><p>방문하지 않은 링크에 스타일을 적용하는 <code>:link 가상 클래스 선택자</code></p>
+        <li>
+          <p>
+            방문하지 않은 링크에 스타일을 적용하는
+            <code>:link 가상 클래스 선택자</code>
+          </p>
         </li>
-        <li>방문한 링크에 스타일을 적용하는 <code>:visited 가상 클래스 선택자</code></li>
-        <li>특정 요소에 마우스 포인터를 올려놓으면 스타일을 적용하는 <code>:hover 가상 클래스 선택자</code></li>
-        <li>웹 요소를 활성화 했을 때 스타일을 적용하는 <code>:active 가상 클래스 선택자</code></li>
-        <li>웹 요소에 초점이 맞추어졌을 때 스타일을 적용하는 <code>:focus 가상 클래스 선택자</code><blockquote>
-        <p>[!tip] :active는 선택한 순간, :focus와 hover의 차이점은 <br> focus는 텍스트 상자나 버튼같은 사용자 입력을 요구하는 거에만 적용이되고, hover는 다 적용이 된다는 차이점이 있다</p>
-        </blockquote>
+        <li>
+          방문한 링크에 스타일을 적용하는
+          <code>:visited 가상 클래스 선택자</code>
         </li>
-        </ul>
-        <h2 id="-">요소 상태에 따른 가상 선택자</h2>
-        <h3 id="-target-">앵커 대상에 스타일을 적용하는 <code>:target 가상 클래스 선택자</code></h3>
-        <ul>
-        <li>문서에서 다른 사이트로 이동할 때에는 링크를 이용하지만,<br> 같은 문서에서 다른위치로 이동할 때는 앵커<sup>anchor</sup>를 이용한다</li>
-        <li><p>이때, <code>:target 선택자</code>를 사용하면, 앵커로 연결된부분의 스타일을 쉽게 적용할 수 있다</p>
-        <h3 id="-enabled-disabled-">요소의 사용 여부에 따라 스타일을 적용하는 <code>:enabled와 :disabled 가상 클래스 선택자</code></h3>
+        <li>
+          특정 요소에 마우스 포인터를 올려놓으면 스타일을 적용하는
+          <code>:hover 가상 클래스 선택자</code>
         </li>
-        <li><p>요소가 사용 가능한 상태일 때 스타일을 지정할려면 <code>:enabled선택자</code>를 사용한다</p>
+        <li>
+          웹 요소를 활성화 했을 때 스타일을 적용하는
+          <code>:active 가상 클래스 선택자</code>
         </li>
-        <li>반대로 사용할 수 없을 때는 <code>:disabled 선택자</code>를 사용한다</li>
-        </ul>
-        <h3 id="-checked-">선택한 항목의 스타일을 적용하는 <code>:checked 가상 클래스 선택자</code></h3>
-        <ul>
-        <li>폼의 라디오박스나 체크박스의 선택된 항목에는 <code>checked</code>라는 속성이 추가된다</li>
-        <li>이렇게 <code>checked</code> 속성이 있는 요소의 스타일을 지정할 때 <code>checked 선택자</code>를 사용하면 편하다</li>
-        </ul>
-        <h3 id="-not-">특정 요소를 제외하고 스타일을 적용하는 <code>:not 가상 클래스 선택자</code></h3>
-        <ul>
-        <li><code>not 선택자</code>는 이름에서도 알 수 있듯이, 부정의 의미가 있다.</li>
+        <li>
+          웹 요소에 초점이 맞추어졌을 때 스타일을 적용하는
+          <code>:focus 가상 클래스 선택자</code>
+          <blockquote>
+            <p>
+              [!tip] :active는 선택한 순간, :focus와 hover의 차이점은 <br />
+              focus는 텍스트 상자나 버튼같은 사용자 입력을 요구하는 거에만
+              적용이되고, hover는 다 적용이 된다는 차이점이 있다
+            </p>
+          </blockquote>
+        </li>
+      </ul>
+      <h2 id="-">요소 상태에 따른 가상 선택자</h2>
+      <h3 id="-target-">
+        앵커 대상에 스타일을 적용하는 <code>:target 가상 클래스 선택자</code>
+      </h3>
+      <ul>
+        <li>
+          문서에서 다른 사이트로 이동할 때에는 링크를 이용하지만,<br />
+          같은 문서에서 다른위치로 이동할 때는 앵커<sup>anchor</sup>를 이용한다
+        </li>
+        <li>
+          <p>
+            이때, <code>:target 선택자</code>를 사용하면, 앵커로 연결된부분의
+            스타일을 쉽게 적용할 수 있다
+          </p>
+          <h3 id="-enabled-disabled-">
+            요소의 사용 여부에 따라 스타일을 적용하는
+            <code>:enabled와 :disabled 가상 클래스 선택자</code>
+          </h3>
+        </li>
+        <li>
+          <p>
+            요소가 사용 가능한 상태일 때 스타일을 지정할려면
+            <code>:enabled선택자</code>를 사용한다
+          </p>
+        </li>
+        <li>
+          반대로 사용할 수 없을 때는 <code>:disabled 선택자</code>를 사용한다
+        </li>
+      </ul>
+      <h3 id="-checked-">
+        선택한 항목의 스타일을 적용하는 <code>:checked 가상 클래스 선택자</code>
+      </h3>
+      <ul>
+        <li>
+          폼의 라디오박스나 체크박스의 선택된 항목에는 <code>checked</code>라는
+          속성이 추가된다
+        </li>
+        <li>
+          이렇게 <code>checked</code> 속성이 있는 요소의 스타일을 지정할 때
+          <code>checked 선택자</code>를 사용하면 편하다
+        </li>
+      </ul>
+      <h3 id="-not-">
+        특정 요소를 제외하고 스타일을 적용하는
+        <code>:not 가상 클래스 선택자</code>
+      </h3>
+      <ul>
+        <li>
+          <code>not 선택자</code>는 이름에서도 알 수 있듯이, 부정의 의미가 있다.
+        </li>
         <li>여기서 not은 괄호안에 있는 요소를 제외한이라는 의미가 있다</li>
-        </ul>
-        <h2 id="-">구조 가상 클래스</h2>
-        <h3 id="-">특정 위치의 자식요소 선택하기</h3>
-        <table class="margin-auto;">
+      </ul>
+      <h2 id="-">구조 가상 클래스</h2>
+      <h3 id="-">특정 위치의 자식요소 선택하기</h3>
+      <table class="margin-auto;">
         <tr class="tableTag">
-        <th class="tableTag" >
-        종류
-        </th>
-        <th class="tableTag">
-        설명
-        </th>
+          <th class="tableTag">종류</th>
+          <th class="tableTag">설명</th>
         </tr>
-        <tr class="tableTag"><td class="tableTag">
-          :first-child
-        </td>
-        <td class="tableTag">모든 자식요소 중에서 첫 번째에 위치하는 요소들을 모두 선택</td></tr>
-        <tr class="tableTag"><td class="tableTag">:last-child</td>
-        <td class="tableTag">모든 자식요소 중에서 마지막에 위치하는 요소를 선택한다</td></tr>
-        <tr class="tableTag"><td class="tableTag">:nth-child(n)&:nth-last-child(n)</td>
-        <td class="tableTag">모든 자식 요소 중에서 n번째에 해당하는 요소를 선택, last-child는 뒤에서부터 선택<br>0과 음수는 생략된다. 2n+1과 2n-1, 3n+1과 3n-1은 같은 수열을 생성한다.</td></tr>
+        <tr class="tableTag">
+          <td class="tableTag">:first-child</td>
+          <td class="tableTag">
+            모든 자식요소 중에서 첫 번째에 위치하는 요소들을 모두 선택
+          </td>
+        </tr>
+        <tr class="tableTag">
+          <td class="tableTag">:last-child</td>
+          <td class="tableTag">
+            모든 자식요소 중에서 마지막에 위치하는 요소를 선택한다
+          </td>
+        </tr>
+        <tr class="tableTag">
+          <td class="tableTag">:nth-child(n)&:nth-last-child(n)</td>
+          <td class="tableTag">
+            모든 자식 요소 중에서 n번째에 해당하는 요소를 선택, last-child는
+            뒤에서부터 선택<br />0과 음수는 생략된다. 2n+1과 2n-1, 3n+1과 3n-1은
+            같은 수열을 생성한다.
+          </td>
+        </tr>
         <tr class="tableTag"></tr>
         <tr class="tableTag"></tr>
         <tr class="tableTag"></tr>
         <tr class="tableTag">
-        <td class="tableTag">
-        :only-child
-        </td>
-        <td class="tableTag">
-        부모안에 자식요소가 하나 뿐일 때 자식 요소를 선택
-        </td>
+          <td class="tableTag">:only-child</td>
+          <td class="tableTag">
+            부모안에 자식요소가 하나 뿐일 때 자식 요소를 선택
+          </td>
         </tr>
         <tr class="tableTag">
-        <td class="tableTag">
-        A:only-type-of
-        </td>
-        <td class="tableTag">
-        부모 안에 A요소가 하나 뿐일 때 선택
-        </td>
+          <td class="tableTag">A:only-type-of</td>
+          <td class="tableTag">부모 안에 A요소가 하나 뿐일 때 선택</td>
         </tr>
-        </table>
-        </div>
+      </table>
+    </div>
   </body>
 </html>
