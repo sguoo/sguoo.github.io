@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "foundation/README.md",
+                "file": "foundation/algorithm/data/concept.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "foundation/README.md",
+                "file": "foundation/algorithm/data/concept.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "foundation/README.md",
+                "file": "foundation/algorithm/data/concept.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "foundation/README.md"
+                "file": "foundation/algorithm/data/concept.md"
               }
             }
           }
@@ -163,8 +163,8 @@
   },
   "active": "d81c03875059412e",
   "lastOpenFiles": [
-    "README.md",
     "foundation/README.md",
+    "README.md",
     "foundation/frontend/data/css.html",
     "foundation/algorithm/test/자고로 알고리즘이란.json",
     "foundation/algorithm/test",
