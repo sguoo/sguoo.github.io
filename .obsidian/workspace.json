@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "foundation/algorithm/data/concept.md",
+                "file": "foundation/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -161,7 +161,7 @@
       "media-extended:Open media": false
     }
   },
-  "active": "d984afe2a7660d92",
+  "active": "d81c03875059412e",
   "lastOpenFiles": [
     "README.md",
     "foundation/README.md",
