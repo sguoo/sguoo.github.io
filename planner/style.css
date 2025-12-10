@@ -1,0 +1,22 @@
+/* /planner/style.css */
+/* (공통 style.css 내용 복사 후 아래 변수만 변경) */
+:root {
+  --primary-color: #28a745; /* Planner 강조색: 그린 */
+  --secondary-color: #1e4d2b; /* 헤딩 컬러 */
+  --background-light: #e6ffe6; /* 배경 하이라이트 */
+}
+
+header h1,
+nav a:hover,
+.project-card h3 {
+  color: var(--primary-color);
+}
+
+.hero {
+  background: linear-gradient(135deg, var(--background-light) 0%, #ffffff 100%);
+}
+
+section h2 {
+  border-bottom: 3px solid var(--primary-color);
+}
+/* ... 나머지 스타일은 공통 CSS를 기반으로 하되, 색상 변수 적용 ... */
