@@ -1,5 +1,53 @@
 /* /planner/style.css */
 /* (공통 style.css 내용 복사 후 아래 변수만 변경) */
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 50px;
+  background-color: #f4f7f6;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.portfolio-card {
+  text-decoration: none;
+  padding: 30px;
+  border-radius: 8px;
+  flex: 1;
+  transition: transform 0.3s;
+}
+.portfolio-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+.pm {
+  background-color: #007bff;
+  color: white;
+}
+.planner {
+  background-color: #28a745;
+  color: white;
+}
+.portfolio-card h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
 :root {
   --primary-color: #28a745; /* Planner 강조색: 그린 */
   --secondary-color: #1e4d2b; /* 헤딩 컬러 */
